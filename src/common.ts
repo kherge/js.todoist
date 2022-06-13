@@ -104,3 +104,18 @@ export enum Color {
    */
   Taupe,
 }
+
+/**
+ * The possible state values.
+ */
+export enum State {
+  /**
+   * The negative state.
+   */
+  No = 0,
+
+  /**
+   * The affirmative state.
+   */
+  Yes = 1,
+}

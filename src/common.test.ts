@@ -1,4 +1,4 @@
-import { Color } from "./common";
+import { Color, State } from "./common";
 
 describe("Color", () => {
   test.each([
@@ -24,5 +24,14 @@ describe("Color", () => {
     ["Taupe", 49],
   ])("verify that the name %s matches the ID %d", (name, id) => {
     expect(Color[name]).toEqual(id);
+  });
+});
+
+describe("State", () => {
+  test.each([
+    ["No", 0],
+    ["Yes", 1],
+  ])("verify the %s state value is %d", (name, value) => {
+    expect(State[name]).toEqual(value);
   });
 });
