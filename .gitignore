@@ -1,0 +1,9 @@
+# Exclude everything.
+*
+
+# Except this ignore file.
+!/.gitignore
+
+# Except the package manifest.
+!/package-lock.json
+!/package.json
