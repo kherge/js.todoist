@@ -1,0 +1,25 @@
+{
+  "name": "@kherge/todoist",
+  "version": "0.1.0",
+  "license": "ISC",
+  "author": "Kevin Herrera",
+  "description": "A REST and Sync client written in TypeScript.",
+  "keywords": [
+    "todoist",
+    "client",
+    "rest",
+    "sync"
+  ],
+  "homepage": "https://github.com/kherge/js.todoist#readme",
+  "bugs": {
+    "url": "https://github.com/kherge/js.todoist/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kherge/js.todoist.git"
+  },
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
