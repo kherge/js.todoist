@@ -20,6 +20,14 @@
   },
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "swc src --config-file swc.config.json --out-dir dist",
+    "test": "jest --watch"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.198",
+    "@swc/jest": "^0.2.21",
+    "@types/jest": "^28.1.1",
+    "jest": "^28.1.1"
   }
 }
