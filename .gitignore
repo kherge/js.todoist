@@ -1,9 +1,20 @@
 # Exclude everything.
 *
 
+# Except the source files.
+!/src/
+!/src/**/
+!/src/**/*.ts
+
 # Except this ignore file.
 !/.gitignore
+
+# Except the Jest config file.
+!/jest.config.js
 
 # Except the package manifest.
 !/package-lock.json
 !/package.json
+
+# Except the SWC config file.
+!/swc.config.json
