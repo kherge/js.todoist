@@ -1,7 +1,7 @@
 /**
  * The possible colors in Todoist.
  *
- * {@link https://developer.todoist.com/guides/#colors Colors API}
+ * {@link https://developer.todoist.com/guides/#colors Colors}
  */
 export enum Color {
   /**
@@ -103,6 +103,33 @@ export enum Color {
    * #ccac93
    */
   Taupe,
+}
+
+/**
+ * The sync command and its arguments.
+ *
+ * - {@link https://developer.todoist.com/sync/v8/#write-resources Sync / Write resources}
+ */
+export interface Command<C extends string, A> {
+  /**
+   * The arguments for the command.
+   */
+  args: A;
+
+  /**
+   * The temporary resource ID.
+   */
+  temp_id?: string;
+
+  /**
+   * The type of the command.
+   */
+  type: C;
+
+  /**
+   * The unique ID for the command.
+   */
+  uuid: string;
 }
 
 /**
