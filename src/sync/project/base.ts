@@ -49,12 +49,12 @@ export interface Project {
   /**
    * The project legacy ID.
    */
-  legacy_id: number;
+  legacy_id?: number;
 
   /**
    * The legacy ID of the parent project.
    */
-  legacy_parent_id: null | number;
+  legacy_parent_id?: number;
 
   /**
    * The name of the project.
