@@ -9,6 +9,9 @@
 # Except this ignore file.
 !/.gitignore
 
+# Except the NPM ignore file.
+!/.npmignore
+
 # Except the Jest config file.
 !/jest.config.js
 

@@ -1,0 +1,12 @@
+# Exclude everyting.
+*
+
+# Exception distribution files.
+!/dist/
+!/dist/**/
+!/dist/**/!(*.test).js
+
+# Except the source files.
+!/src/
+!/src/**/
+!/src/**/!(*.test).ts
