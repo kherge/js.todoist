@@ -79,5 +79,5 @@ export interface Project {
   /**
    * The state that indicates the project is a team inbox.
    */
-  team_inbox: boolean;
+  team_inbox?: boolean;
 }
