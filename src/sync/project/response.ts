@@ -1,6 +1,6 @@
-import { Item } from "../item/base";
+import { Item } from "../item";
 import { Note } from "../note";
-import { Section } from "../section/base";
+import { Section } from "../section";
 import { Project } from "./base";
 
 /**
