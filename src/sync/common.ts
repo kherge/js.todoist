@@ -133,6 +133,26 @@ export interface Command<C extends string, A> {
 }
 
 /**
+ * The languages (ISO 639-1) recognized by Todoist.
+ */
+export enum Language {
+  Chinese = "zh",
+  Danish = "da",
+  Dutch = "nl",
+  English = "en",
+  French = "fr",
+  German = "de",
+  Italian = "it",
+  Japanese = "ja",
+  Korean = "ko",
+  Polish = "pl",
+  Portuguese = "pt",
+  Russian = "ru",
+  Spanish = "es",
+  Swedish = "sv",
+}
+
+/**
  * The possible state values.
  */
 export enum State {
